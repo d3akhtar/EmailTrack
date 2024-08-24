@@ -1,0 +1,65 @@
+.no-scroll-y{
+    overflow-y: hidden;
+}
+
+.no-scroll-x{
+    overflow-x: hidden;
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+.toggle-btn{
+    margin-right: 15px;
+    background-color: rgb(128, 128, 128);
+    border: 1px solid rgb(74, 74, 74);
+    border-radius: 99px;
+    width: 50px;
+    height: 28px;
+    transition: background-color 0.1s ease, border-color 0.2s ease;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.748);
+    position: relative;
+}
+
+.toggle-btn .thumb {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 99px;
+    transform: translateX(0);
+    transition: left 0.15s ease;
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: left 0.15s ease;
+}
+
+.toggle-btn.toggled{
+    background-color: rgb(73, 255, 170);
+}
+
+.toggle-btn:hover {
+    border-color: white;
+}
+
+.toggle-btn.toggled .thumb{
+    /* width of the toggle button area - width of the toggle thumb - some other offset */
+    left: calc(50px - 20px - 5px) 
+}
+
+.sidebar-label {
+    color: black;
+    transition: 0.3s;
+}
+
+.sidebar-label:hover {
+    font-size: 1.6vh;
+    color: gray;
+    transition: 0.15s;
+}
+
+
+
