@@ -11,3 +11,8 @@ container on localhost. You need to enter email details in ./backend/EmailSender
 ![](https://imgur.com/KvscrSY.png)
 
 ![](https://imgur.com/IlETg15.png)
+
+TODO: 
+- Fix any issues related gmail refetching
+- Find and fix any other issues
+- Improve UI
